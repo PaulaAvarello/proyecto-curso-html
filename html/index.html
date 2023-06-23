@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/favicon.ico.png" type="image/x-icon">
+    <title>Mi primer página web</title>
+
+    <style>
+    
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 35%;
+            height: auto;
+        }
+    
+    
+        .article {
+            float:  left;
+            width: 70%;
+            background-color: #FFF;
+            padding:  10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear:both
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Paula Mariela Avarello</h1>
+    <nav>
+       <ul> 
+          <li> <a class="active" href="index.html">Home</a></li>
+          <li> <a href="sobremi.html">Sobre mi</a></li>
+          <li> <a href="audiovisuales.html">Audioviduales</a></li>
+          <li> <a href="contacto.html">Contacto</a></li>
+    </ul>
+    </nav>
+   </header> 
+   <h2 style="margin:15px;"> En formación constante</h2>
+   <hr>
+   <article class="container">
+    <h3>Biografía </h3>
+         <img  class= "image" src="/assets/imagenes/tcp.jpg" alt="TCP">
+         <p>Mi nombre es <b>Paula Mariela Avarello</b> y tengo 35 años. Recientemente comencé a estudiar <i>programación web</i>, ya que siempre estoy buscando nuevas formas de <strong>aprender y crecer</strong>.</p>
+         <img  class= "image2" src="/assets/imagenes/tcps.jpg" alt="tcps">
+         <p> Además de mi interés en la tecnología, también tengo conocimientos en <i>Java</i> e <i>Inglés</i>, lo que me permite comunicarme y trabajar en un entorno global.</p>
+         <p> También tengo una amplia experiencia en otras áreas: <br> Soy <b>Enfermera Profesional</b>, <b>Asistente jurídico</b>, <b>Tripulante de Cabina de Pasajeros</b> e <b>Instructora de Entrenamiento Funcional y HIIT</b>. <br> Con mi dedicación y <em>pasión por el aprendizaje</em>, he logrado mucho en mi vida y estoy emocionada por lo que el futuro me depara.</p>
+         
+         
+   </article>
+   <footer class="footer">
+    <p>Derechos reservados &copy;2023</p>
+   </footer>
+</body>
+</html>
